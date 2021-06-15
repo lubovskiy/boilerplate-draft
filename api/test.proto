@@ -12,6 +12,6 @@ message EchoResponse {
     string out = 1;
 }
 
-service Echo {
+service Test {
     rpc Echo (test.EchoRequest) returns (test.EchoResponse);
 }
